@@ -108,6 +108,13 @@ export default function Home() {
           </p>
         </a>
       </div>
+      <div className="rating gap-1">
+        <input type="radio" name="rating-3" className="mask mask-heart bg-red-400" />
+        <input type="radio" name="rating-3" className="mask mask-heart bg-orange-400" defaultChecked />
+        <input type="radio" name="rating-3" className="mask mask-heart bg-yellow-400" />
+        <input type="radio" name="rating-3" className="mask mask-heart bg-lime-400" />
+        <input type="radio" name="rating-3" className="mask mask-heart bg-green-400" />
+      </div>
     <footer className="footer bg-neutral text-neutral-content p-10">
       <nav>
         <h6 className="footer-title">Services</h6>
